@@ -1,0 +1,25 @@
+<nav class="navbar navbar-static-top navbar-inverse" ng-controller="NavbarCtrl">
+  <div class="navbar-header">
+    <a class="navbar-brand active" href="#" style="color:#fff">
+      <i class="fa fa-bug"></i>
+      聚信立测试
+    </a>
+  </div>
+
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+    <ul class="nav navbar-nav">
+      <li class="active">
+          <a ng-href="#">
+            <i class="fa fa-database"></i>
+            数据接口
+          </a>
+      </li>
+      <li><a ng-href="#">工具接口</a></li>
+      <li><a ng-href="#">Contact</a></li>
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li>Current date: {{ date | date:'yyyy-MM-dd' }}</li>
+    </ul>
+  </div>
+</nav>
